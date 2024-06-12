@@ -4,6 +4,7 @@ import sys
 line_break = "-"*500
 def print_welcome():
     l = ("""This is a text-based adventure game developed alone by Viroopaksh Chekuri.
+Please maximize your command prompt for better experience.
 You can find his projects at github.com\VIROOPAKSHC.
 Please feel free to reach out for any issues in the game.""").split("\n")
     for line in l:
