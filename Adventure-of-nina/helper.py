@@ -7,10 +7,11 @@ def welcome(states):
 {f'{"`"*135}'}
 
           
-                                            Welcome to the Adventures of Nina
+                                            WELCOME TO THE ADVENTURES OF NINA!
+                                        This game is brought to you by BlackMoonBear Studios
 
 
-""")
+{f'{"`"*135}'}\n""")
     time.sleep(2)
     
 
@@ -24,7 +25,7 @@ protected by the tribe named Darodans, who also possessed special abilities but 
 they protected their tribes from the Gundarvas in the abandoned forest located near the Himalayas and in between the tribes. 
 Both the tribes enjoyed together in a religious festival every year the 3rd week of Monsoon.
 """)
-    print(f"{'-'*150}\n{'-'*150}\n")
+    print(f"{'`'*135}\n{'`'*135}\n")
     for line in s.split("\n"):
         time.sleep(3)
         print(" "*16,end="")
@@ -41,7 +42,7 @@ be coming to their village by the night and somehow making people vanish. They d
 for their situation. After deciding, the village head decided to send their strongest soldier Nina to the forest to speak, if required
 slay the Gundarvas of the forest. 
 """)
-    print(f"{'-'*150}\n{'-'*150}\n")
+    print(f"{'`'*135}\n{'`'*135}\n")
     for line in s.split("\n"):
         time.sleep(3)
         print(" "*16,end="")
@@ -75,8 +76,7 @@ def home_screen(states,state='start'):
         states.append("Start Screen")
         inp = ""
         while True:
-            print(f"""
-{f'{"`"*135}'}
+            print("""
 
                 Select a number from the following
                 1) New Game
@@ -85,7 +85,7 @@ def home_screen(states,state='start'):
                 4) About Me
                 5) Exit
 
-\n
+
     """)
             inp = input(">> ")
             if (inp in list("12345")):

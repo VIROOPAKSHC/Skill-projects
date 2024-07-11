@@ -5,12 +5,17 @@ import json
 import sys
 import os
 from helper import *
+import datetime as dt
+
 
 # See the links in the Personal Brave for text based RPGs
 
 commands = ["exit","help","save","menu"]
 definitions = {"exit":"Use this command to exit the game","help":"Use this command to get the help menu","save":"Use this command to save the current game state","menu":"Use this command to get to the main menu."}
 current_game_config = {}
+
+def unload_datetime(datetime):
+    return dt.datetime.strptime(datetime,"%m/%d/%Y, %H:%M:%S")
 
 def start_new():
     global current_game_config
@@ -51,9 +56,11 @@ def start_new():
     current_game_config['userage'] = userage
     current_game_config["actions"] = []
     current_game_config["states"] = []
+    current_game_config['timestamp'] = dt.datetime.now().strftime("%m/%d/%Y, %H:%M:%S")
 
 def load_game(username=""):
     f = 0
+    global current_game_config
     while True:
         if not(username):
             inp = input("What's your username?\n>> ")
@@ -76,17 +83,21 @@ def help():
     print(f"""
 {f'{"`"*135}'}
 
-                The available commands are:""")
+The available commands are:\n\n""")
     for command in commands:
         print(f"{command} - {definitions[command]}")
         time.sleep(1)
     print()
     time.sleep(5)
+    print(f"""
+{f'{"`"*135}'}\n""")
 
 def save_game():
     # Use JSON files for saving the game
     f = open(current_game_config['username']+'.json','w')
+    current_game_config["timestamp"] = dt.datetime.now().strftime("%d/%m/%Y, %H:%M:%S")
     f.write(json.dumps(current_game_config))
+    print("Game saved!")
 
 
 def exit_game(states):
@@ -97,7 +108,7 @@ def exit_game(states):
             break
         user_input = input("Do you want to save the game?\n1. Yes\n2. No\n>> ")
     if user_input=='1':
-        save_game(states)
+        save_game()
     sys.exit(0)
 
 def menu(states,inp):
@@ -135,9 +146,13 @@ def play():
                     break
                 inp = home_screen(states,state='start')
 
-        
-        game_play = True
-        started = False
+        inp = input("Do you want to start playing?\n1) Yes\n2) No\n>> ")
+        if inp=='1':
+            game_play = True
+            started = False
+            print("Maximize your console for immersive experience!")
+        else:
+            continue
         while True:
             # Inner loop for playing the actual game
             if game_play:
