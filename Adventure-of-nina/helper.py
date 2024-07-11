@@ -1,8 +1,32 @@
 import time
 
-def welcome(states):
+def input_handler(message: str,options: list,error_message = ''):
+    inp = ""
+    while True:
+        inp = input(message)
+        if inp in options:
+            return inp
+        if not error_message:
+            print(f"No available command. Select from {options}")
+        else:
+            print(error_message)
 
-    states.append("Welcome Screen")
+def helper_func(comms,defs):
+    
+    print(f"""
+{f'{"`"*135}'}
+
+The available commands are:\n\n""")
+    for command in comms:
+        print(f"{command} - {defs[command]}")
+        time.sleep(1)
+    print()
+    time.sleep(5)
+    print(f"""
+{f'{"`"*135}'}\n""")
+    
+def welcome():
+
     print(f"""
 {f'{"`"*135}'}
 
@@ -71,24 +95,29 @@ def about_me():
 """)
     time.sleep(3)
 
-def home_screen(states,state='start'):
+def home_screen(state='start'):
     if state=='start':
-        states.append("Start Screen")
-        inp = ""
-        while True:
-            print("""
+        inp = input_handler("""
 
-                Select a number from the following
-                1) New Game
-                2) Load Game
-                3) Help
-                4) About Me
-                5) Exit
+            Select a number from the following
+            1) New Game
+            2) Load Game
+            3) Help
+            4) About Me
+            5) Exit
 
 
-    """)
-            inp = input(">> ")
-            if (inp in list("12345")):
-                break
+>> """,list("12345"))
+    elif state=='pause':
+        inp = input_handler("""
 
-        return inp
+            Select a number from the following
+            1) Resume Game
+            2) Main Menu
+            3) Help
+            4) About Me
+            5) Exit
+
+
+>> """,list("12345"))
+    return inp
