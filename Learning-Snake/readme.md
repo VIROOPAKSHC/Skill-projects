@@ -1,0 +1,2 @@
+This project is a working AI snake game in which a reinforcement learning algorithm helps the snake to learn to maximize its score based on its surroundings.
+This is completely coded from scratch using PyTorch, PyGame and Reinforcement learning algorithms.
