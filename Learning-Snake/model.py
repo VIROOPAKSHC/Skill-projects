@@ -3,6 +3,7 @@ import torch.nn as nn
 import torch.optim as optim
 import torch.nn.functional as F
 import os
+import logging
 
 class Linear_QNet(nn.Module):
     def __init__(self, input_size, hidden_size, output_size):
@@ -15,11 +16,15 @@ class Linear_QNet(nn.Module):
         x = self.linear2(x)
         return x
 
-    def save(self, file_name='model.pth'):
+    def save(self, file_name='model.pth',n_games=-1):
         model_folder_path = './model'
         if not os.path.exists(model_folder_path):
             os.makedirs(model_folder_path)
-
+        if n_games%90 == 0:
+            file_name = os.path.join(model_folder_path, f'model{n_games}.pth')
+            torch.save(self.state_dict(), file_name)
+            logging.info(f"Saved the model as model{n_games}.pth after it has learnt from {n_games} games experience.")
+        
         file_name = os.path.join(model_folder_path, file_name)
         torch.save(self.state_dict(), file_name)
     
@@ -28,8 +33,10 @@ class Linear_QNet(nn.Module):
         file_name = os.path.join(model_folder_path, file_name)
         if os.path.exists(file_name):
             self.load_state_dict(torch.load(file_name))
+            logging.info(f"{file_name} Model loaded")
         else:
             print(f"No model found at {file_name}, starting training from scratch.")
+            logging.error("Model failed to load")
     
 
 class QTrainer:

@@ -1,0 +1,124 @@
+2024-07-30 20:28:31,267 - INFO - Agent initialized
+2024-07-30 20:28:31,268 - INFO - Inside load function
+2024-07-30 20:28:31,269 - ERROR - Failed to load model: 'Agent' object has no attribute 'state_dict'
+2024-07-30 20:28:31,269 - ERROR - Model failed to load
+2024-07-30 20:28:32,141 - INFO - Game 1, Score 0, Record: 0
+2024-07-30 20:28:35,506 - INFO - Game 2, Score 0, Record: 0
+2024-07-30 20:28:37,228 - INFO - Game 3, Score 0, Record: 0
+2024-07-30 20:28:37,958 - INFO - Game 4, Score 0, Record: 0
+2024-07-30 20:28:39,925 - INFO - Game 5, Score 0, Record: 0
+2024-07-30 20:28:42,243 - INFO - Game 6, Score 0, Record: 0
+2024-07-30 20:28:47,119 - INFO - Game 7, Score 0, Record: 0
+2024-07-30 20:28:50,951 - INFO - Game 8, Score 0, Record: 0
+2024-07-30 20:28:52,548 - INFO - Model saved
+2024-07-30 20:28:52,549 - INFO - Game 9, Score 1, Record: 1
+2024-07-30 20:28:55,602 - INFO - Game 10, Score 0, Record: 1
+2024-07-30 20:28:57,013 - INFO - Game 11, Score 0, Record: 1
+2024-07-30 20:28:58,949 - INFO - Game 12, Score 0, Record: 1
+2024-07-30 20:29:04,466 - INFO - Game 13, Score 0, Record: 1
+2024-07-30 20:29:07,977 - INFO - Game 14, Score 0, Record: 1
+2024-07-30 20:29:10,987 - INFO - Game 15, Score 0, Record: 1
+2024-07-30 20:29:12,770 - INFO - Game 16, Score 0, Record: 1
+2024-07-30 20:29:18,714 - INFO - Game 17, Score 0, Record: 1
+2024-07-30 20:29:24,761 - INFO - Game 18, Score 0, Record: 1
+2024-07-30 20:29:28,246 - INFO - Game 19, Score 0, Record: 1
+2024-07-30 20:29:31,090 - INFO - Game 20, Score 0, Record: 1
+2024-07-30 20:29:32,961 - INFO - Game 21, Score 0, Record: 1
+2024-07-30 20:29:38,794 - INFO - Game 22, Score 0, Record: 1
+2024-07-30 20:29:47,740 - INFO - Game 23, Score 1, Record: 1
+2024-07-30 20:29:56,524 - INFO - Game 24, Score 1, Record: 1
+2024-07-30 20:29:58,277 - INFO - Game 25, Score 1, Record: 1
+2024-07-30 20:29:59,932 - INFO - Game 26, Score 0, Record: 1
+2024-07-30 20:30:11,329 - INFO - Game 27, Score 0, Record: 1
+2024-07-30 20:30:13,745 - INFO - Game 28, Score 0, Record: 1
+2024-07-30 20:30:19,133 - INFO - Game 29, Score 1, Record: 1
+2024-07-30 20:30:20,591 - INFO - Game 30, Score 0, Record: 1
+2024-07-30 20:30:23,524 - INFO - Game 31, Score 1, Record: 1
+2024-07-30 20:30:27,335 - INFO - Game 32, Score 1, Record: 1
+2024-07-30 20:30:30,862 - INFO - Game 33, Score 0, Record: 1
+2024-07-30 20:30:32,510 - INFO - Game 34, Score 0, Record: 1
+2024-07-30 20:30:37,411 - INFO - Model saved
+2024-07-30 20:30:37,411 - INFO - Game 35, Score 2, Record: 2
+2024-07-30 20:30:39,406 - INFO - Game 36, Score 1, Record: 2
+2024-07-30 20:30:41,097 - INFO - Game 37, Score 0, Record: 2
+2024-07-30 20:30:48,090 - INFO - Game 38, Score 1, Record: 2
+2024-07-30 20:30:50,674 - INFO - Game 39, Score 0, Record: 2
+2024-07-30 20:30:54,524 - INFO - Game 40, Score 1, Record: 2
+2024-07-30 20:31:03,715 - INFO - Game 41, Score 0, Record: 2
+2024-07-30 20:31:06,916 - INFO - Game 42, Score 1, Record: 2
+2024-07-30 20:31:09,896 - INFO - Game 43, Score 1, Record: 2
+2024-07-30 20:31:13,515 - INFO - Game 44, Score 1, Record: 2
+2024-07-30 20:31:15,396 - INFO - Game 45, Score 0, Record: 2
+2024-07-30 20:31:24,822 - INFO - Game 46, Score 1, Record: 2
+2024-07-30 20:31:27,384 - INFO - Game 47, Score 0, Record: 2
+2024-07-30 20:31:30,626 - INFO - Game 48, Score 1, Record: 2
+2024-07-30 20:31:33,170 - INFO - Game 49, Score 0, Record: 2
+2024-07-30 20:31:36,969 - INFO - Game 50, Score 2, Record: 2
+2024-07-30 20:31:41,743 - INFO - Game 51, Score 1, Record: 2
+2024-07-30 20:31:43,934 - INFO - Game 52, Score 1, Record: 2
+2024-07-30 20:31:51,937 - INFO - Game 53, Score 2, Record: 2
+2024-07-30 20:31:57,047 - INFO - Game 54, Score 2, Record: 2
+2024-07-30 20:32:00,331 - INFO - Game 55, Score 0, Record: 2
+2024-07-30 20:32:02,964 - INFO - Game 56, Score 1, Record: 2
+2024-07-30 20:32:07,841 - INFO - Game 57, Score 1, Record: 2
+2024-07-30 20:32:10,641 - INFO - Game 58, Score 1, Record: 2
+2024-07-30 20:32:19,611 - INFO - Model saved
+2024-07-30 20:32:19,611 - INFO - Game 59, Score 3, Record: 3
+2024-07-30 20:32:37,670 - INFO - Agent initialized
+2024-07-30 20:32:37,684 - INFO - ./model\model90.pth Model loaded
+2024-07-30 20:32:39,064 - INFO - Model saved
+2024-07-30 20:32:39,064 - INFO - Game 1, Score 1, Record: 1
+2024-07-30 20:32:41,227 - INFO - Game 2, Score 1, Record: 1
+2024-07-30 20:32:42,789 - INFO - Game 3, Score 1, Record: 1
+2024-07-30 20:32:43,930 - INFO - Game 4, Score 1, Record: 1
+2024-07-30 20:32:45,680 - INFO - Game 5, Score 1, Record: 1
+2024-07-30 20:32:47,254 - INFO - Model saved
+2024-07-30 20:32:47,255 - INFO - Game 6, Score 2, Record: 2
+2024-07-30 20:32:48,539 - INFO - Game 7, Score 1, Record: 2
+2024-07-30 20:32:49,815 - INFO - Game 8, Score 1, Record: 2
+2024-07-30 20:32:51,475 - INFO - Game 9, Score 2, Record: 2
+2024-07-30 20:32:57,903 - INFO - Model saved
+2024-07-30 20:32:57,903 - INFO - Game 10, Score 7, Record: 7
+2024-07-30 20:32:59,653 - INFO - Game 11, Score 1, Record: 7
+2024-07-30 20:33:01,079 - INFO - Game 12, Score 1, Record: 7
+2024-07-30 20:33:04,662 - INFO - Game 13, Score 2, Record: 7
+2024-07-30 20:33:10,535 - INFO - Game 14, Score 7, Record: 7
+2024-07-30 20:33:13,451 - INFO - Game 15, Score 1, Record: 7
+2024-07-30 20:33:18,636 - INFO - Game 16, Score 3, Record: 7
+2024-07-30 20:33:21,419 - INFO - Game 17, Score 1, Record: 7
+2024-07-30 20:33:24,643 - INFO - Game 18, Score 4, Record: 7
+2024-07-30 20:33:26,962 - INFO - Game 19, Score 1, Record: 7
+2024-07-30 20:33:28,907 - INFO - Game 20, Score 2, Record: 7
+2024-07-30 20:33:31,698 - INFO - Game 21, Score 1, Record: 7
+2024-07-30 20:33:34,955 - INFO - Game 22, Score 3, Record: 7
+2024-07-30 20:33:38,494 - INFO - Game 23, Score 2, Record: 7
+2024-07-30 20:33:42,446 - INFO - Game 24, Score 4, Record: 7
+2024-07-30 20:33:44,681 - INFO - Game 25, Score 3, Record: 7
+2024-07-30 20:33:47,750 - INFO - Game 26, Score 2, Record: 7
+2024-07-30 20:33:49,776 - INFO - Game 27, Score 1, Record: 7
+2024-07-30 20:33:52,316 - INFO - Game 28, Score 1, Record: 7
+2024-07-30 20:33:56,136 - INFO - Game 29, Score 3, Record: 7
+2024-07-30 20:34:00,252 - INFO - Game 30, Score 3, Record: 7
+2024-07-30 20:34:05,106 - INFO - Game 31, Score 3, Record: 7
+2024-07-30 20:34:07,666 - INFO - Game 32, Score 2, Record: 7
+2024-07-30 20:34:10,010 - INFO - Game 33, Score 1, Record: 7
+2024-07-30 20:34:13,182 - INFO - Game 34, Score 5, Record: 7
+2024-07-30 20:34:15,477 - INFO - Game 35, Score 2, Record: 7
+2024-07-30 20:34:18,674 - INFO - Game 36, Score 1, Record: 7
+2024-07-30 20:34:22,433 - INFO - Game 37, Score 3, Record: 7
+2024-07-30 20:34:24,758 - INFO - Game 38, Score 2, Record: 7
+2024-07-30 20:34:28,116 - INFO - Game 39, Score 1, Record: 7
+2024-07-30 20:34:29,931 - INFO - Game 40, Score 2, Record: 7
+2024-07-30 20:34:34,600 - INFO - Game 41, Score 4, Record: 7
+2024-07-30 20:34:36,230 - INFO - Game 42, Score 1, Record: 7
+2024-07-30 20:34:40,345 - INFO - Game 43, Score 2, Record: 7
+2024-07-30 20:34:43,840 - INFO - Game 44, Score 2, Record: 7
+2024-07-30 20:34:47,980 - INFO - Game 45, Score 5, Record: 7
+2024-07-30 20:34:53,235 - INFO - Game 46, Score 7, Record: 7
+2024-07-30 20:34:56,608 - INFO - Game 47, Score 2, Record: 7
+2024-07-30 20:35:04,422 - INFO - Model saved
+2024-07-30 20:35:04,422 - INFO - Game 48, Score 10, Record: 10
+2024-07-30 20:35:09,061 - INFO - Game 49, Score 5, Record: 10
+2024-07-30 20:35:10,811 - INFO - Game 50, Score 1, Record: 10
+2024-07-30 20:35:14,309 - INFO - Game 51, Score 3, Record: 10
+2024-07-30 20:35:16,963 - INFO - Game 52, Score 2, Record: 10

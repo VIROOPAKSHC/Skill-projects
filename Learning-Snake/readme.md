@@ -1,33 +1,27 @@
-This project is a working AI snake game in which a reinforcement learning algorithm helps the snake to learn to maximize its score based on its surroundings.
-This is completely coded from scratch using PyTorch, PyGame and Reinforcement learning algorithms.
+# Snake Game AI with Deep Q-Learning
 
-Rewards (irrespective of the state):
+This project is an implementation of a Snake Game AI using Deep Q-Learning. The AI learns to play the classic Snake game using a neural network and reinforcement learning techniques.
 
-Eating  - +10
-Gameover - -10
-Any other - 0
+## Table of Contents
 
-States(11 values):
+- [Overview](#overview)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Agent Details](#agent-details)
+- [Model Details](#model-details)
+- [Training](#training)
+- [Logging](#logging)
+- [Contributing](#contributing)
+- [License](#license)
 
-[Danger straight,
-Danger right,
-Danger left,
-Direction left,
-Direction right,
-Direction up,
-Direction down,
-Food Left,
-Food Right,
-Food Up,
-Foor Down
-]
+## Overview
 
-Actions:
+The AI agent is trained to play Snake using a neural network that predicts the best moves based on the current state of the game. The training process utilizes the Q-learning algorithm, where the agent learns from its actions and the rewards received.
 
-[1,0,0] -> Straight
-[0,1,0] -> Right turn
-[0,0,1] -> Left turn
+## Installation
 
-Model:
+To run this project, ensure you have Python installed. Then, install the required dependencies using pip:
 
-Feed Forward Neural Network that uses Deep Q-Learning Algorithm for predicting an action based on the state.
+```bash
+pip install -r requirements.txt

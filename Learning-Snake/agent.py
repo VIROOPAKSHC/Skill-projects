@@ -1,6 +1,7 @@
 import torch
 import random
 import numpy as np
+import logging
 from collections import deque
 from game import SnakeGameAI, Direction, Point
 from model import Linear_QNet, QTrainer
@@ -9,6 +10,10 @@ from helper import plot
 MAX_MEMORY = 100_000
 BATCH_SIZE = 1000
 LR = 0.001
+
+# Setup logging
+logging.basicConfig(filename='agent.log', level=logging.INFO,
+                    format='%(asctime)s - %(levelname)s - %(message)s')
 
 class Agent:
 
@@ -19,7 +24,7 @@ class Agent:
         self.memory = deque(maxlen=MAX_MEMORY) # popleft()
         self.model = Linear_QNet(11, 256, 3)
         self.trainer = QTrainer(self.model, lr=LR, gamma=self.gamma)
-
+        logging.info("Agent initialized")
 
     def get_state(self, game):
         head = game.snake[0]
@@ -78,8 +83,6 @@ class Agent:
 
         states, actions, rewards, next_states, dones = zip(*mini_sample)
         self.trainer.train_step(states, actions, rewards, next_states, dones)
-        #for state, action, reward, nexrt_state, done in mini_sample:
-        #    self.trainer.train_step(state, action, reward, next_state, done)
 
     def train_short_memory(self, state, action, reward, next_state, done):
         self.trainer.train_step(state, action, reward, next_state, done)
@@ -101,21 +104,6 @@ class Agent:
 
 import os
 
-def load(agent,file_name='model.pth'):
-    print("Inside load function")
-    print(agent.state_dict())
-    try:
-        model_folder_path = './model'
-        file_name = os.path.join(model_folder_path,file_name)
-        f = torch.load(file_name)
-        for name, param in f.items():
-
-            transformed_param = param
-            agent.state_dict()[name] = (transformed_param)
-        return True
-    except:
-        return False
-
 def train():
     plot_scores = []
     plot_mean_scores = []
@@ -123,6 +111,7 @@ def train():
     record = 0
     agent = Agent()
     agent.model.load()
+    
     game = SnakeGameAI()
     while True:
         # get old state
@@ -149,16 +138,16 @@ def train():
 
             if score > record:
                 record = score
-                agent.model.save()
+                agent.model.save(n_games=agent.n_games)
+                logging.info("Model saved")
 
-            print('Game', agent.n_games, 'Score', score, 'Record:', record)
-
+            logging.info(f'Game {agent.n_games}, Score {score}, Record: {record}')
+            print("Played: Game",agent.n_games)
             plot_scores.append(score)
             total_score += score
             mean_score = total_score / agent.n_games
             plot_mean_scores.append(mean_score)
             plot(plot_scores, plot_mean_scores)
-
 
 if __name__ == '__main__':
     train()
