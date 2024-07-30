@@ -165,3 +165,114 @@
 2024-07-30 20:40:40,893 - INFO - Model saved
 2024-07-30 20:40:40,893 - INFO - Game 89, Score 53, Record: 53
 2024-07-30 20:41:15,140 - INFO - Saved the model as model90.pth after it has learnt from 90 games experience.
+2024-07-30 20:44:05,708 - INFO - Agent initialized
+2024-07-30 20:44:05,717 - INFO - ./model\model90.pth Model loaded
+2024-07-30 20:44:07,168 - INFO - Model saved
+2024-07-30 20:44:07,168 - INFO - Game 1, Score 1, Record: 1
+2024-07-30 20:44:09,132 - INFO - Model saved
+2024-07-30 20:44:09,132 - INFO - Game 2, Score 2, Record: 2
+2024-07-30 20:44:11,187 - INFO - Game 3, Score 2, Record: 2
+2024-07-30 20:44:13,812 - INFO - Game 4, Score 1, Record: 2
+2024-07-30 20:44:14,710 - INFO - Game 5, Score 1, Record: 2
+2024-07-30 20:44:18,821 - INFO - Game 6, Score 2, Record: 2
+2024-07-30 20:44:21,458 - INFO - Game 7, Score 1, Record: 2
+2024-07-30 20:44:22,716 - INFO - Game 8, Score 1, Record: 2
+2024-07-30 20:44:25,969 - INFO - Model saved
+2024-07-30 20:44:25,969 - INFO - Game 9, Score 3, Record: 3
+2024-07-30 20:44:27,510 - INFO - Game 10, Score 1, Record: 3
+2024-07-30 20:44:28,513 - INFO - Game 11, Score 1, Record: 3
+2024-07-30 20:44:31,878 - INFO - Game 12, Score 2, Record: 3
+2024-07-30 20:44:34,354 - INFO - Game 13, Score 1, Record: 3
+2024-07-30 20:44:36,304 - INFO - Game 14, Score 1, Record: 3
+2024-07-30 20:44:39,313 - INFO - Game 15, Score 1, Record: 3
+2024-07-30 20:44:45,537 - INFO - Model saved
+2024-07-30 20:44:45,538 - INFO - Game 16, Score 8, Record: 8
+2024-07-30 20:44:50,326 - INFO - Game 17, Score 4, Record: 8
+2024-07-30 20:44:54,019 - INFO - Game 18, Score 3, Record: 8
+2024-07-30 20:44:55,345 - INFO - Game 19, Score 0, Record: 8
+2024-07-30 20:44:57,254 - INFO - Game 20, Score 1, Record: 8
+2024-07-30 20:45:01,942 - INFO - Game 21, Score 3, Record: 8
+2024-07-30 20:45:05,458 - INFO - Game 22, Score 2, Record: 8
+2024-07-30 20:45:07,233 - INFO - Game 23, Score 2, Record: 8
+2024-07-30 20:45:10,076 - INFO - Game 24, Score 2, Record: 8
+2024-07-30 20:45:13,323 - INFO - Game 25, Score 7, Record: 8
+2024-07-30 20:45:16,344 - INFO - Game 26, Score 2, Record: 8
+2024-07-30 20:45:17,697 - INFO - Game 27, Score 1, Record: 8
+2024-07-30 20:45:23,914 - INFO - Model saved
+2024-07-30 20:45:23,914 - INFO - Game 28, Score 9, Record: 9
+2024-07-30 20:45:31,441 - INFO - Game 29, Score 7, Record: 9
+2024-07-30 20:45:37,185 - INFO - Game 30, Score 8, Record: 9
+2024-07-30 20:45:39,428 - INFO - Game 31, Score 1, Record: 9
+2024-07-30 20:45:42,707 - INFO - Game 32, Score 2, Record: 9
+2024-07-30 20:45:43,942 - INFO - Game 33, Score 1, Record: 9
+2024-07-30 20:45:45,883 - INFO - Game 34, Score 2, Record: 9
+2024-07-30 20:45:51,017 - INFO - Game 35, Score 5, Record: 9
+2024-07-30 20:45:56,456 - INFO - Game 36, Score 6, Record: 9
+2024-07-30 20:46:02,819 - INFO - Game 37, Score 8, Record: 9
+2024-07-30 20:46:08,328 - INFO - Game 38, Score 7, Record: 9
+2024-07-30 20:46:12,462 - INFO - Game 39, Score 3, Record: 9
+2024-07-30 20:46:16,542 - INFO - Game 40, Score 6, Record: 9
+2024-07-30 20:46:18,532 - INFO - Game 41, Score 2, Record: 9
+2024-07-30 20:46:23,132 - INFO - Game 42, Score 4, Record: 9
+2024-07-30 20:46:25,675 - INFO - Game 43, Score 1, Record: 9
+2024-07-30 20:46:31,268 - INFO - Game 44, Score 9, Record: 9
+2024-07-30 20:46:33,760 - INFO - Game 45, Score 2, Record: 9
+2024-07-30 20:46:44,387 - INFO - Model saved
+2024-07-30 20:46:44,388 - INFO - Game 46, Score 16, Record: 16
+2024-07-30 20:46:46,092 - INFO - Game 47, Score 1, Record: 16
+2024-07-30 20:46:50,775 - INFO - Game 48, Score 8, Record: 16
+2024-07-30 20:46:52,729 - INFO - Game 49, Score 1, Record: 16
+2024-07-30 20:46:59,075 - INFO - Game 50, Score 7, Record: 16
+2024-07-30 20:47:01,903 - INFO - Game 51, Score 2, Record: 16
+2024-07-30 20:47:07,556 - INFO - Game 52, Score 8, Record: 16
+2024-07-30 20:47:12,079 - INFO - Game 53, Score 7, Record: 16
+2024-07-30 20:47:21,113 - INFO - Game 54, Score 13, Record: 16
+2024-07-30 20:47:24,874 - INFO - Game 55, Score 1, Record: 16
+2024-07-30 20:47:28,960 - INFO - Game 56, Score 5, Record: 16
+2024-07-30 20:47:38,629 - INFO - Model saved
+2024-07-30 20:47:38,629 - INFO - Game 57, Score 17, Record: 17
+2024-07-30 20:47:44,498 - INFO - Game 58, Score 7, Record: 17
+2024-07-30 20:47:51,898 - INFO - Game 59, Score 8, Record: 17
+2024-07-30 20:47:58,307 - INFO - Game 60, Score 8, Record: 17
+2024-07-30 20:48:05,310 - INFO - Game 61, Score 10, Record: 17
+2024-07-30 20:48:17,088 - INFO - Game 62, Score 14, Record: 17
+2024-07-30 20:48:19,787 - INFO - Game 63, Score 3, Record: 17
+2024-07-30 20:48:27,147 - INFO - Game 64, Score 14, Record: 17
+2024-07-30 20:48:34,780 - INFO - Game 65, Score 12, Record: 17
+2024-07-30 20:48:42,114 - INFO - Game 66, Score 10, Record: 17
+2024-07-30 20:48:44,951 - INFO - Game 67, Score 4, Record: 17
+2024-07-30 20:48:54,504 - INFO - Game 68, Score 17, Record: 17
+2024-07-30 20:49:02,595 - INFO - Game 69, Score 9, Record: 17
+2024-07-30 20:49:04,906 - INFO - Game 70, Score 2, Record: 17
+2024-07-30 20:49:06,658 - INFO - Game 71, Score 1, Record: 17
+2024-07-30 20:49:11,327 - INFO - Game 72, Score 7, Record: 17
+2024-07-30 20:49:25,154 - INFO - Model saved
+2024-07-30 20:49:25,154 - INFO - Game 73, Score 24, Record: 24
+2024-07-30 20:49:33,944 - INFO - Game 74, Score 12, Record: 24
+2024-07-30 20:49:38,922 - INFO - Game 75, Score 7, Record: 24
+2024-07-30 20:49:47,709 - INFO - Game 76, Score 18, Record: 24
+2024-07-30 20:50:06,966 - INFO - Model saved
+2024-07-30 20:50:06,967 - INFO - Game 77, Score 33, Record: 33
+2024-07-30 20:50:26,807 - INFO - Model saved
+2024-07-30 20:50:26,807 - INFO - Game 78, Score 34, Record: 34
+2024-07-30 20:50:44,098 - INFO - Game 79, Score 26, Record: 34
+2024-07-30 20:51:08,010 - INFO - Saved the model as model80.pth after it has learnt from 80 games experience.
+2024-07-30 20:51:08,013 - INFO - Model saved
+2024-07-30 20:51:08,013 - INFO - Game 80, Score 39, Record: 39
+2024-07-30 20:51:31,445 - INFO - Game 81, Score 35, Record: 39
+2024-07-30 20:51:47,435 - INFO - Game 82, Score 29, Record: 39
+2024-07-30 20:52:03,757 - INFO - Game 83, Score 32, Record: 39
+2024-07-30 20:52:15,801 - INFO - Game 84, Score 22, Record: 39
+2024-07-30 20:52:25,912 - INFO - Game 85, Score 19, Record: 39
+2024-07-30 20:52:46,149 - INFO - Model saved
+2024-07-30 20:52:46,149 - INFO - Game 86, Score 40, Record: 40
+2024-07-30 20:53:13,879 - INFO - Model saved
+2024-07-30 20:53:13,879 - INFO - Game 87, Score 49, Record: 49
+2024-07-30 20:53:24,544 - INFO - Game 88, Score 18, Record: 49
+2024-07-30 20:53:35,477 - INFO - Game 89, Score 20, Record: 49
+2024-07-30 20:54:00,572 - INFO - Game 90, Score 45, Record: 49
+2024-07-30 20:54:21,396 - INFO - Game 91, Score 37, Record: 49
+2024-07-30 20:54:25,812 - INFO - Game 92, Score 9, Record: 49
+2024-07-30 20:54:31,827 - INFO - Game 93, Score 12, Record: 49
+2024-07-30 20:54:52,557 - INFO - Game 94, Score 40, Record: 49
+2024-07-30 20:55:15,899 - INFO - Game 95, Score 36, Record: 49
