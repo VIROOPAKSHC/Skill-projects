@@ -7,7 +7,7 @@
 
 ### 2. [Learning-Snake](Learning-Snake)
 
-- **Description**: Developed an AI agent to master the classic Snake game using Deep Q-Learning. The project showcases the implementation of reinforcement learning techniques, including checkpointing and fine-tuning for efficient training. Explore how the AI learns to optimize its moves and achieve high scores over time.
+- **Description**: Developed an AI agent to master the classic Snake game using Deep Reinforcement Learning (Q-learning). The project showcases the implementation of reinforcement learning techniques, including checkpointing and fine-tuning for efficient training. Explore how the AI learns to optimize its moves and achieve high scores over time.
 - **Status**: Completed.
 
 ### 3. [Mesop-First](Mesop-First)
