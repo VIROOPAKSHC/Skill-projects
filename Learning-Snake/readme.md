@@ -114,6 +114,11 @@ The training process is logged to agent.log. This includes important events such
 
 A Snapshot of the Gameplay when the agent is learning the model parameters to improve its rewards:
 
+![Game-Play-snapshot.png](Game-Play-snapshot.png)
+
+A Snapshot of the rewards curve over the games played:
+
+![Rewards-Curve](Graph-screenshot.png)
 
 ## Contributing
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
