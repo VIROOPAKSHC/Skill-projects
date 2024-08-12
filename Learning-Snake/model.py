@@ -20,15 +20,16 @@ class Linear_QNet(nn.Module):
         model_folder_path = './model'
         if not os.path.exists(model_folder_path):
             os.makedirs(model_folder_path)
-        if n_games%20 == 0:
+        if n_games%80 == 0:
             file_name_ = os.path.join(model_folder_path, f'model{n_games}.pth')
             torch.save(self.state_dict(), file_name_)
+            print("File Saved")
             logging.info(f"Saved the model as model{n_games}.pth after it has learnt from {n_games} games experience.")
         
         file_name = os.path.join(model_folder_path, file_name)
         torch.save(self.state_dict(), file_name)
     
-    def load(self,file_name='model90.pth'):
+    def load(self,file_name='model.pth'):
         model_folder_path = './model'
         file_name = os.path.join(model_folder_path, file_name)
         if os.path.exists(file_name):
