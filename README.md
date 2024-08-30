@@ -20,6 +20,11 @@
 - **Description**: A sub repo created to store the building of the Alpha Zero from Scratch.
 - **Status**: Created project
 
+### 5. [Taxi-v3-Gym-QLearning](Taxi-v3-Gym-QLearning)
+
+- **Description** : A sub repo created to store the files for the Taxi Route Optimization Project using Gymnasium and Reinforcement Learning
+- **Status**: Completed
+
 ## How to Contribute
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
