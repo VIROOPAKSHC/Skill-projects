@@ -25,6 +25,12 @@
 - **Description** : A sub repo created to store the files for the Taxi Route Optimization Project using Gymnasium and Reinforcement Learning
 - **Status**: Completed
 
+### 6. [BlackJack-RL](BlackJack-RL)
+
+- **Description** : Applied Q-Learning, Monte Carlo Policy Estimation and Temporal Difference Policy Estimation on the BlackJack game for a fixed policy. Has a GUI to observe how the code is working and to understand how the agent is playing the game.
+- **Status**: Completed
+
+
 ## How to Contribute
 
 Contributions are welcome! Please fork the repository and submit a pull request with your changes.
